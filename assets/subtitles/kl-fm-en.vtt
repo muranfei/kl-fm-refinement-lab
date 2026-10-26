@@ -1,0 +1,49 @@
+WEBVTT
+
+cue-1
+00:00:00.000 --> 00:00:13.000
+A legal partition is a starting point. Refinement decides which move to trust.
+
+cue-2
+00:00:13.000 --> 00:00:28.000
+ABC versus DEF is balanced, but the cut costs ten.
+
+cue-3
+00:00:28.000 --> 00:00:46.000
+Pair gain combines both local gains, then removes the edge counted twice.
+
+cue-4
+00:00:46.000 --> 00:01:05.000
+D(C)=4, D(F)=−1, so the pair gain is +3 and the cut becomes seven.
+
+cue-5
+00:01:05.000 --> 00:01:24.500
+KL records every cumulative gain, then restores the best prefix of the pass.
+
+cue-6
+00:01:24.500 --> 00:01:41.500
+The path reaches +9 before falling. The best prefix is not the final state.
+
+cue-7
+00:01:41.500 --> 00:01:56.500
+D has gain +5. Moving it to ABC produces a 4|2 split, allowed by the gap limit.
+
+cue-8
+00:01:56.500 --> 00:02:14.000
+FM reduces the cut to five, but changes the side sizes from 3|3 to 4|2.
+
+cue-9
+00:02:14.000 --> 00:02:34.000
+KL coordinates swaps. FM scales single moves. Neither guarantees a global optimum.
+
+cue-10
+00:02:34.000 --> 00:02:51.000
+Balance, locked cells, connectivity, and the stop rule define the feasible search.
+
+cue-11
+00:02:51.000 --> 00:03:07.000
+A trustworthy result includes the assignment, cut, balance, gains, and stop point.
+
+cue-12
+00:03:07.000 --> 00:03:25.500
+KL coordinates pairs. FM scales single moves. Both need feasible, verified results.

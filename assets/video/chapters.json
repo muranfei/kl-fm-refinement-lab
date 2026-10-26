@@ -1,0 +1,101 @@
+{
+  "duration": 205.5,
+  "chapters": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 13,
+      "kicker": "EDA PARTITIONING / REFINEMENT",
+      "captionEN": "A legal partition is a starting point. Refinement decides which move to trust.",
+      "captionZH": "合法分区只是起点，优化算法决定该相信哪一种移动。"
+    },
+    {
+      "number": 2,
+      "start": 13,
+      "end": 28,
+      "kicker": "01 / READ THE STARTING CUT",
+      "captionEN": "ABC versus DEF is balanced, but the cut costs ten.",
+      "captionZH": "ABC 对 DEF 虽然尺寸平衡，但割边代价为 10。"
+    },
+    {
+      "number": 3,
+      "start": 28,
+      "end": 46,
+      "kicker": "02 / KL PAIR GAIN",
+      "captionEN": "Pair gain combines both local gains, then removes the edge counted twice.",
+      "captionZH": "配对收益合并两个局部收益，再扣掉被重复计算的直连边。"
+    },
+    {
+      "number": 4,
+      "start": 46,
+      "end": 65,
+      "kicker": "03 / ONE KL STEP",
+      "captionEN": "D(C)=4, D(F)=−1, so the pair gain is +3 and the cut becomes seven.",
+      "captionZH": "D(C)=4，D(F)=−1，配对收益为 +3，割边代价降到 7。"
+    },
+    {
+      "number": 5,
+      "start": 65,
+      "end": 84.5,
+      "kicker": "04 / KL PASS MECHANICS",
+      "captionEN": "KL records every cumulative gain, then restores the best prefix of the pass.",
+      "captionZH": "KL 记录每一步的累计收益，最后回滚到该轮的最佳前缀。"
+    },
+    {
+      "number": 6,
+      "start": 84.5,
+      "end": 101.5,
+      "kicker": "05 / WHY ROLLBACK MATTERS",
+      "captionEN": "The path reaches +9 before falling. The best prefix is not the final state.",
+      "captionZH": "累计收益一度达到 +9 后回落，最佳状态并不在整轮末尾。"
+    },
+    {
+      "number": 7,
+      "start": 101.5,
+      "end": 116.5,
+      "kicker": "06 / FM SINGLE-MOVE SEARCH",
+      "captionEN": "D has gain +5. Moving it to ABC produces a 4|2 split, allowed by the gap limit.",
+      "captionZH": "D 的收益为 +5；在尺寸差上限为 2 时，移到 ABC 后可形成 4|2 的合法分区。"
+    },
+    {
+      "number": 8,
+      "start": 116.5,
+      "end": 134,
+      "kicker": "07 / ONE FM MOVE",
+      "captionEN": "FM reduces the cut to five, but changes the side sizes from 3|3 to 4|2.",
+      "captionZH": "FM 把割边代价降到 5，但侧尺寸也从 3|3 变成 4|2。"
+    },
+    {
+      "number": 9,
+      "start": 134,
+      "end": 154,
+      "kicker": "08 / KL VS FM",
+      "captionEN": "KL coordinates swaps. FM scales single moves. Neither guarantees a global optimum.",
+      "captionZH": "KL 协调交换，FM 扩展单点移动；两者都只保证局部结果。"
+    },
+    {
+      "number": 10,
+      "start": 154,
+      "end": 171,
+      "kicker": "09 / KEEP THE RESULT FEASIBLE",
+      "captionEN": "Balance, locked cells, connectivity, and the stop rule define the feasible search.",
+      "captionZH": "平衡、锁定单元、连通性和停止条件共同定义了可行搜索。"
+    },
+    {
+      "number": 11,
+      "start": 171,
+      "end": 187,
+      "kicker": "10 / VERIFY THE MOVE",
+      "captionEN": "A trustworthy result includes the assignment, cut, balance, gains, and stop point.",
+      "captionZH": "可信结果应包含最终分区、割边代价、平衡、收益和停止位置。"
+    },
+    {
+      "number": 12,
+      "start": 187,
+      "end": 205.5,
+      "kicker": "11 / RECAP",
+      "captionEN": "KL coordinates pairs. FM scales single moves. Both need feasible, verified results.",
+      "captionZH": "KL 协调交换，FM 扩展单点移动；两者都需要可行且经过验证的结果。"
+    }
+  ]
+}

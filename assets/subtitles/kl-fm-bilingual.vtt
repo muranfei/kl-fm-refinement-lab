@@ -1,0 +1,61 @@
+WEBVTT
+
+cue-1
+00:00:00.000 --> 00:00:13.000
+A legal partition is a starting point. Refinement decides which move to trust.
+合法分区只是起点，优化算法决定该相信哪一种移动。
+
+cue-2
+00:00:13.000 --> 00:00:28.000
+ABC versus DEF is balanced, but the cut costs ten.
+ABC 对 DEF 虽然尺寸平衡，但割边代价为 10。
+
+cue-3
+00:00:28.000 --> 00:00:46.000
+Pair gain combines both local gains, then removes the edge counted twice.
+配对收益合并两个局部收益，再扣掉被重复计算的直连边。
+
+cue-4
+00:00:46.000 --> 00:01:05.000
+D(C)=4, D(F)=−1, so the pair gain is +3 and the cut becomes seven.
+D(C)=4，D(F)=−1，配对收益为 +3，割边代价降到 7。
+
+cue-5
+00:01:05.000 --> 00:01:24.500
+KL records every cumulative gain, then restores the best prefix of the pass.
+KL 记录每一步的累计收益，最后回滚到该轮的最佳前缀。
+
+cue-6
+00:01:24.500 --> 00:01:41.500
+The path reaches +9 before falling. The best prefix is not the final state.
+累计收益一度达到 +9 后回落，最佳状态并不在整轮末尾。
+
+cue-7
+00:01:41.500 --> 00:01:56.500
+D has gain +5. Moving it to ABC produces a 4|2 split, allowed by the gap limit.
+D 的收益为 +5；在尺寸差上限为 2 时，移到 ABC 后可形成 4|2 的合法分区。
+
+cue-8
+00:01:56.500 --> 00:02:14.000
+FM reduces the cut to five, but changes the side sizes from 3|3 to 4|2.
+FM 把割边代价降到 5，但侧尺寸也从 3|3 变成 4|2。
+
+cue-9
+00:02:14.000 --> 00:02:34.000
+KL coordinates swaps. FM scales single moves. Neither guarantees a global optimum.
+KL 协调交换，FM 扩展单点移动；两者都只保证局部结果。
+
+cue-10
+00:02:34.000 --> 00:02:51.000
+Balance, locked cells, connectivity, and the stop rule define the feasible search.
+平衡、锁定单元、连通性和停止条件共同定义了可行搜索。
+
+cue-11
+00:02:51.000 --> 00:03:07.000
+A trustworthy result includes the assignment, cut, balance, gains, and stop point.
+可信结果应包含最终分区、割边代价、平衡、收益和停止位置。
+
+cue-12
+00:03:07.000 --> 00:03:25.500
+KL coordinates pairs. FM scales single moves. Both need feasible, verified results.
+KL 协调交换，FM 扩展单点移动；两者都需要可行且经过验证的结果。
