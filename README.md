@@ -2,6 +2,8 @@
 
 An original bilingual teaching website about KL and FM graph-partition refinement. It combines a 3 minute 26 second English-narrated video, burned-in bilingual captions, a chaptered player, interactive graph practice, and a six-question knowledge check.
 
+**Live website:** [https://muranfei.github.io/kl-fm-refinement-lab/](https://muranfei.github.io/kl-fm-refinement-lab/)
+
 ## Open the website
 
 Open [index.html](./index.html) in a modern browser. The package works directly from disk, without a server, package installation, login, or external CDN.
