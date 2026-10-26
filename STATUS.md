@@ -31,11 +31,14 @@
 - KL trace reached final cumulative gain +3 and best prefix +9.
 - Quiz test produced 6/6 with explanations visible.
 - Desktop and 390 px mobile test reported no horizontal overflow.
+- Public repository created at `muranfei/kl-fm-refinement-lab`.
+- GitHub Pages build completed successfully.
+- Anonymous public checks returned the website HTML, CSS, bilingual captions, and byte-range video responses.
+- The public video is served as `video/mp4` with range support.
 
 ## Not yet performed
 
 - Human listening review of the synthesized English voice.
-- Public GitHub repository creation or deployment.
 - Teacher-platform or issue submission.
 - Choice of a public content license.
 
